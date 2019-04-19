@@ -87,7 +87,7 @@
 
            if($result->rowCount()):
                 echo "Exclusao realizada com sucesso";
-                header('Location: index.php');
+               
            else:
                 echo "Exclusão não realizada";
            endif;

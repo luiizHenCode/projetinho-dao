@@ -142,8 +142,9 @@
         if(isset($getId))
         {
             $clientes->deletaUsuario('clientes',$getId);
+            $url = $_SERVER['PHP_SELF'];
+            header("Refresh: 1; url=$url");
         }
-
         
         ?>
 
